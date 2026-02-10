@@ -1,0 +1,7 @@
+{
+  "name": "Exposure Flow Pro",
+  "description": "A high-end manual photography learning tool to master the exposure triangle using a Leica-inspired workflow.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
