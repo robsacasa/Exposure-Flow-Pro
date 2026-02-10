@@ -86,18 +86,18 @@ const Step4ISO: React.FC<Step4ISOProps> = ({ settings, onReset, onBack }) => {
 
         <section className="space-y-3">
           <h2 className="text-xs font-bold uppercase tracking-widest text-zinc-400 px-1">Live Grain Preview</h2>
-          <div className="relative aspect-video rounded-2xl overflow-hidden group ring-1 ring-zinc-800">
+          <div className="relative aspect-video rounded-2xl overflow-hidden group ring-1 ring-zinc-800 bg-black">
             <img 
               alt="Camera Sensor Preview" 
-              className="w-full h-full object-cover grayscale-[0.2]" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDLHJAI1AHjdJK8DZCjn34XjYFFM9ESCPwdhObkYX2hdahMXuIltPvDBarsJ7HF-D8SwVkS7EqPIo20hmw5dfJkVEeS-6_I4JLjRoxCboOA3mCgw0Gk4UYSbBxW4-RFN28Tyuqv6yURb2KQwfyAA-F1Eof7h_Qwlatnqr8CuWjhOgBTHz_9hr8JeF08MsQg6A8OrP9PV37QtvAEOgUwjA0tlzwkbiWZ8Au6S6NaMweUqakMNPRhBwwP-mHLg3rCBT51TQMqkhv8L4" 
+              className="w-full h-full object-cover grayscale-[0.5] opacity-70" 
+              src="https://images.unsplash.com/photo-1493238792040-e7141f15dd51?q=80&w=800&auto=format&fit=crop" 
             />
             {/* Grain Overlay simulation */}
             <div 
               className="absolute inset-0 pointer-events-none mix-blend-overlay opacity-30"
               style={{ 
                 backgroundImage: 'url(https://grainy-gradients.vercel.app/noise.svg)',
-                opacity: settings.iso / 10000 
+                opacity: settings.iso / 8000 
               }}
             ></div>
             <div className="absolute top-4 left-4 px-3 py-1.5 bg-black/80 ios-blur border border-white/10 rounded-lg text-[10px] font-bold text-white flex items-center tracking-widest">

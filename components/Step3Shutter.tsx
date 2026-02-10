@@ -72,10 +72,10 @@ const Step3Shutter: React.FC<Step3ShutterProps> = ({ shutter, shutterVal, onShut
             <div className="w-full h-24 bg-black rounded-xl border border-white/5 overflow-hidden relative flex items-center justify-center">
               <img 
                 alt="Motion visual" 
-                className="absolute inset-0 w-full h-full object-cover opacity-30 grayscale" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJY5mGvLejNUpeAPcRXPwWvRzXULagJ6U2y1Kzod2RNDK_6WItretqo6mP4xotzAPOF81iszKE9AzBIwwlo8f-AKkAeQtlx7wexi8Hrminf3pG8usNZjD5giEWfTY6-UIZpueaa3LQf5oDuFGXXy_f9X3ZMPwFlF4liS0QdoH4EedqMbkW4GJchwGcPVdmVG7ZX2mOi6mggT65HWltEYRih7uAhvLFMWDfnSgrqcC5kqpiRaBmCrZTnPX7NrTrREfvLACyCaV0xE4" 
+                className="absolute inset-0 w-full h-full object-cover opacity-40 grayscale-[0.5]" 
+                src="https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?q=80&w=800&auto=format&fit=crop" 
               />
-              <div className="relative z-10 flex flex-col items-center">
+              <div className="relative z-10 flex flex-col items-center bg-black/40 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/10">
                 <div className="h-0.5 w-12 bg-accent-red mb-2 animate-pulse"></div>
                 <p className="text-[10px] text-white font-medium uppercase tracking-[0.2em]">Flow Stabilized</p>
               </div>

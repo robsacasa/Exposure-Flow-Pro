@@ -104,8 +104,9 @@ const Step1EV: React.FC<Step1EVProps> = ({ ev, onEvChange, onNext }) => {
         <div className="rounded-xl overflow-hidden h-28 border border-white/10 group relative shadow-2xl">
           <div className="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
           <img 
+            key={currentScenario.imageUrl}
             alt="Simulation" 
-            className="w-full h-full object-cover transition-opacity duration-1000" 
+            className="w-full h-full object-cover transition-opacity duration-1000 animate-[fadeIn_0.5s_ease-in-out]" 
             src={currentScenario.imageUrl} 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>

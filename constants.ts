@@ -9,7 +9,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Deep night conditions with minimal ambient light. Requires long exposures or very high ISO.',
     ev: -6,
     icon: 'star',
-    imageUrl: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1506318137071-a8e063b4bcc0?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'moonlight',
@@ -18,7 +18,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Typical moonlit landscape. Significant shadow depth but some visible detail.',
     ev: -3,
     icon: 'dark_mode',
-    imageUrl: 'https://images.unsplash.com/photo-1470252649358-96753a7831e5?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1532690650605-1ee0c52a6bbd?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'candle',
@@ -27,7 +27,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Soft, intimate illumination. The zero-point reference for low-light photography.',
     ev: 0,
     icon: 'auto_stories',
-    imageUrl: 'https://images.unsplash.com/photo-1512909006721-3d6018887183?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1517400470505-88891f759b79?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'street',
@@ -36,7 +36,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Modern city lighting or dim indoor settings. A common threshold for handheld shooting.',
     ev: 4,
     icon: 'nightlight',
-    imageUrl: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'indoor',
@@ -45,7 +45,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Well-lit interiors with large windows or studio lights. Requires moderate ISO or wide apertures.',
     ev: 8,
     icon: 'lightbulb',
-    imageUrl: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'cloud',
@@ -54,7 +54,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Overcast conditions providing soft, even light. Good for portraits but lower overall illumination.',
     ev: 12,
     icon: 'filter_drama',
-    imageUrl: 'https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'sun',
@@ -63,7 +63,7 @@ export const SCENARIOS: Scenario[] = [
     description: 'Standard daylight conditions with high contrast shadows. Optimal for low noise and maximum dynamic range.',
     ev: 15,
     icon: 'wb_sunny',
-    imageUrl: 'https://images.unsplash.com/photo-1444333509404-9271cef58a1c?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1444333509404-9271cef58a1c?q=80&w=800&auto=format&fit=crop'
   }
 ];
 
