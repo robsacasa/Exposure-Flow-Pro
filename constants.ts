@@ -3,22 +3,40 @@ import { Scenario } from './types';
 
 export const SCENARIOS: Scenario[] = [
   {
-    id: 'sun',
-    name: 'Bright Sunlight',
-    subtitle: 'ISO 100 REFERENCE',
-    description: 'Standard daylight conditions with high contrast shadows. Optimal for low noise and maximum dynamic range.',
-    ev: 15,
-    icon: 'wb_sunny',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBJWmXj8HdJPVBze39LRJheJS82kZqVnuo_GHkB2Tuh6BFnY3wbQJWXMnbkCSuat9cEZ_CQB0RHADZsl-8nfwIeYjdwqpFdznE9qjYXSW_IxcwExQJJ7SFTZvmYgs8s4q3TAqpYnC7sLmdQx24BI_bqHxDyGdwkmgkRChzbD0gWFU_hnGBB34FIvlcCwQ7s9McNk9AXvR1K2NFn_mzELdtg5tsSCaky2cCLDEri4yG9r8flXuFJWCMGJiJoYs3UadmbCQL6o9KyZk4'
+    id: 'starlight',
+    name: 'Starlight',
+    subtitle: 'EXTREME LOW LIGHT',
+    description: 'Deep night conditions with minimal ambient light. Requires long exposures or very high ISO.',
+    ev: -6,
+    icon: 'star',
+    imageUrl: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=800'
   },
   {
-    id: 'cloud',
-    name: 'Cloudy Sky',
-    subtitle: 'SOFT DIFFUSED LIGHT',
-    description: 'Overcast conditions providing soft, even light. Good for portraits but lower overall illumination.',
-    ev: 12,
-    icon: 'filter_drama',
-    imageUrl: 'https://picsum.photos/seed/cloudy/800/400'
+    id: 'moonlight',
+    name: 'Full Moonlight',
+    subtitle: 'NIGHT EXTERIOR',
+    description: 'Typical moonlit landscape. Significant shadow depth but some visible detail.',
+    ev: -3,
+    icon: 'dark_mode',
+    imageUrl: 'https://images.unsplash.com/photo-1470252649358-96753a7831e5?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'candle',
+    name: 'Candle Light',
+    subtitle: 'WARM GLOW',
+    description: 'Soft, intimate illumination. The zero-point reference for low-light photography.',
+    ev: 0,
+    icon: 'auto_stories',
+    imageUrl: 'https://images.unsplash.com/photo-1512909006721-3d6018887183?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'street',
+    name: 'Street Lighting',
+    subtitle: 'URBAN NIGHT',
+    description: 'Modern city lighting or dim indoor settings. A common threshold for handheld shooting.',
+    ev: 4,
+    icon: 'nightlight',
+    imageUrl: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'indoor',
@@ -27,7 +45,25 @@ export const SCENARIOS: Scenario[] = [
     description: 'Well-lit interiors with large windows or studio lights. Requires moderate ISO or wide apertures.',
     ev: 8,
     icon: 'lightbulb',
-    imageUrl: 'https://picsum.photos/seed/indoor/800/400'
+    imageUrl: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'cloud',
+    name: 'Cloudy Sky',
+    subtitle: 'SOFT DIFFUSED LIGHT',
+    description: 'Overcast conditions providing soft, even light. Good for portraits but lower overall illumination.',
+    ev: 12,
+    icon: 'filter_drama',
+    imageUrl: 'https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'sun',
+    name: 'Bright Sunlight',
+    subtitle: 'ISO 100 REFERENCE',
+    description: 'Standard daylight conditions with high contrast shadows. Optimal for low noise and maximum dynamic range.',
+    ev: 15,
+    icon: 'wb_sunny',
+    imageUrl: 'https://images.unsplash.com/photo-1444333509404-9271cef58a1c?auto=format&fit=crop&q=80&w=800'
   }
 ];
 
